@@ -164,3 +164,63 @@ h3{
 
 
 }
+
+.final-section{
+       height: 300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+
+.blue-container{
+       background-color: cornflowerblue;
+       width: 75%;
+       height: 40%;
+       display: flex;
+       flex-direction: row;
+      
+}
+
+.left{
+       width: 80%;
+       margin-left: 100px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+}
+
+h4{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.last-p{
+       color: white;
+       font-size: 17px;
+
+}
+.right{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+
+}
+
+.btn-final{
+       background-color: #3882f6;
+       color: #E5E7EB;
+       width: 100px;
+       height: 40px;
+       border: 1px white;
+       border-radius: 10px; 
+       margin-left: 700px;
+      }
+
+.footer{
+       display: flex;
+       justify-content: center;
+        
+
+}
