@@ -15,7 +15,7 @@ body{
 
 
 .first-section{
-       background-color: rgb(43, 157, 161);
+       background-color: rgba(44, 99, 155, 0.897);
 }
 
 #header-logo{
@@ -24,8 +24,9 @@ body{
 }
 
 .header-link{
-       font-size: 15px;
+       font-size: 18px;
        color: #E5E7EB;
+       justify-content: space-between;
 }
 
 .navbar{
@@ -35,7 +36,9 @@ body{
 
 ul{
        display: flex;
-       flex-direction: row;
+       justify-content: space-between;
+       gap: 1em;
+
 }
 
 .navbar-left,.navbar-right{
@@ -46,6 +49,7 @@ ul{
        align-items: center;
 
 }
+
 
 h1{
        font-size: 35px;
@@ -154,6 +158,7 @@ h3{
 
 .p-third{
        font-size: 20px;
+       margin-left: 550px;
 
 }
 
